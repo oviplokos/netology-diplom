@@ -1,0 +1,30 @@
+
+all:
+    hosts: %{ for idx, k8s-master in k8s-masters }
+        k8s-master-${idx}:
+            ansible_host: ${master.network_interface[0].nat_ip_address}
+            ip: ${master.network_interface[0].ip_address}
+            access_ip: ${master.network_interface[0].nat_ip_address}%{ endfor }%{ for idx, worker in workers }
+            ansible_user: netology
+
+        k8s-worker-${idx}:
+            ansible_host: ${worker.network_interface[0].nat_ip_address}
+            ip: ${worker.network_interface[0].ip_address}
+            access_ip: ${worker.network_interface[0].nat_ip_address}%{ endfor }
+            ansible_user: netology
+
+
+kube_control_plane:
+    hosts: %{ for idx, master in masters } 
+        ${master.name}:%{ endfor }
+kube_node:
+    hosts: %{ for idx, worker in workers } 
+        ${worker.name}:%{ endfor }
+etcd:
+    hosts: %{ for idx, master in masters } 
+        ${master.name} : %{ endfor }
+
+
+
+
+    
