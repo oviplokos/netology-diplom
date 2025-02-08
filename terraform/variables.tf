@@ -1,17 +1,16 @@
 variable "cloud_id" {
   description = "ID облака"
   type        = string
-  default     = "b1g7ap6c3mqfb35ap85v"
+
 }
 variable "token" {
   type        = string
   description = "OAuth-token; https://cloud.yandex.ru/docs/iam/concepts/authorization/oauth-token"
-  default     = "y0__wgBEM_W6psHGMHdEyC--ZuIEjOsfpwQGlDxBbLrDHhnyD7bBaif"
 }
 variable "folder_id" {
   description = "ID папки"
   type        = string
-  default     = "b1g8rmgv6c5417m3479h"
+
 }
 
 # variable "service_account_key_file" {
