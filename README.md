@@ -56,12 +56,18 @@
 Файлы для создания инфраструктры находятся в папке :  [bucket](https://github.com/oviplokos/netology-diplom/tree/main/bucket) 
 
 Скриншоты созданной инфсраструктуры:
-
 ![image](https://github.com/user-attachments/assets/f1007eae-b452-4fc5-b3a8-9663f3e99dd0)
 ![image](https://github.com/user-attachments/assets/7c5a5f6d-d592-4483-8bf3-b13a771c3aea)
 ![image](https://github.com/user-attachments/assets/1e5f345d-9f96-4333-8fde-4e664854e2c6)
 ![image](https://github.com/user-attachments/assets/bd4f8c7d-6a16-4d85-8a32-a9fee4dc9ebb)
 ![image](https://github.com/user-attachments/assets/61a56c92-3922-40d6-834d-27cb37e24c5f)
+
+
+Добавлено 15.02.2025 по замечаниям дипломного руководителя:
+добавил проект гитхаба на terraform cloud
+![image](https://github.com/user-attachments/assets/1cdb3497-5feb-468b-aabd-5930752ea3ab)
+![image](https://github.com/user-attachments/assets/f5b853d3-4792-4d49-9c26-9eda10a983b4)
+![image](https://github.com/user-attachments/assets/d73272d4-ab6b-41fe-ba23-8473d1892351)
 
 
 
