@@ -64,7 +64,9 @@
 
 
 Добавлено 15.02.2025 по замечаниям дипломного руководителя:
+
 добавил проект гитхаба на terraform cloud
+
 ![image](https://github.com/user-attachments/assets/1cdb3497-5feb-468b-aabd-5930752ea3ab)
 ![image](https://github.com/user-attachments/assets/f5b853d3-4792-4d49-9c26-9eda10a983b4)
 ![image](https://github.com/user-attachments/assets/d73272d4-ab6b-41fe-ba23-8473d1892351)
